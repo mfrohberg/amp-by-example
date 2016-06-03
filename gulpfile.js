@@ -194,8 +194,7 @@ gulp.task('compile:sw-precache',
         path.join(paths.dist.dir,
           'components/amp-install-serviceworker/*.html')
       ],
-      stripPrefix: 'dist',
-      verbose: true
+      stripPrefix: 'dist'
     });
   });
 
